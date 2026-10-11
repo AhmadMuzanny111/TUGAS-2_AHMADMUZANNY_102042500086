@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #f4f4f5;
+  color: #3a3a3c;
+}
+
+.navbar {
+  background: #e1262d;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 36px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #3a3a3c;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e4e4e7;
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 9px 18px;
+  border: 1px solid #e1262d;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #e1262d;
+  color: white;
+}
+.btn-primary:hover {
+  background: #b02a30;
+  border-color: #b02a30;
+}
+.btn-light {
+  background: white;
+  color: #e1262d;
+}
+.btn-light:hover {
+  background: #e1262d;
+  color: white;
+}
+.btn-danger {
+  background: white;
+  color: #606163;
+  border-color: #b8b8bb;
+}
+.btn-danger:hover {
+  background: #606163;
+  border-color: #606163;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th {
+  background: #e1262d;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+th:first-child {
+  border-radius: 8px 0 0 0;
+}
+th:last-child {
+  border-radius: 0 8px 0 0;
+}
+
+td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e4e4e7;
+  vertical-align: middle;
+}
+
+tr:nth-child(even) td {
+  background: #fafafa;
+}
+tr:hover td {
+  background: #fdeeee;
+}
+tr:last-child td {
+  border-bottom: 2px solid #e1262d;
+}
+
+td:first-child {
+  width: 50px;
+  color: #858688;
+}
+td:nth-child(2) {
+  font-weight: 600;
+}
+td:nth-child(5),
+td:nth-child(7),
+th:nth-child(5),
+th:nth-child(7) {
+  text-align: center;
+}
+
+td .btn {
+  padding: 5px 12px;
+  font-size: 13px;
+}
+
+label {
+  display: block;
+  margin: 16px 0 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+input {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid #b8b8bb;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 15px;
+}
+input:focus {
+  outline: none;
+  border-color: #e1262d;
+}
+form .btn {
+  margin-top: 24px;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    font-size: 18px;
+  }
+  .card {
+    padding: 16px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+}
